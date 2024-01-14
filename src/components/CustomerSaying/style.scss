@@ -1,0 +1,49 @@
+.customerSayingWrapper {
+  margin-bottom: 120px;
+  .customerSayingTitle {
+    h1 {
+      font-family: SF Pro Display;
+      font-size: 55px;
+      font-weight: 600;
+      line-height: 74px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: black;
+      margin-top: 160px;
+      margin-bottom: 50px;
+    }
+  }
+  .customerSayingCarousel {
+    height: 700px;
+    .react-multi-carousel-item {
+      border-left: 0.5px solid #000060;
+      border-right: 0.5px solid #000060;
+    }
+    .react-multi-carousel-dot {
+      button {
+        background: #ff4729;
+        width: 18px;
+        height: 18px;
+        border: none;
+        margin-right: 12px;
+        opacity: 40%;
+      }
+    }
+
+    .react-multi-carousel-dot-list {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .react-multi-carousel-dot--active {
+      button {
+        background: #ff4729;
+        width: 24px;
+        height: 24px;
+        border: none;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import './App.scss'
+import CustomerSaying from './components/CustomerSaying'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import HeaderBanner from './components/HeaderBanner'
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <HeaderBanner/>
       <OurSolutions/>
+      <CustomerSaying/>
       <Subscription/>
       <Footer/>
     </>
