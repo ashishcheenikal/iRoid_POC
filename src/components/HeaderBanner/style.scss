@@ -1,0 +1,63 @@
+.headerBannerSection {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 96, 0.73) 12.38%,
+    #000060 89.51%
+  );
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .BannerTitle {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+    align-items: center;
+    // background: tan;
+    height: 42%;
+    padding: 0px 242px;
+    margin-top: 175px;
+
+
+    .heading1 {
+      font-size: 70px;
+      font-weight: 600;
+      line-height: 84px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #ffffff;
+    }
+    .heading2 {
+      width: 75%;
+      margin-top: 47px;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #ffffff;
+    }
+    .contactUsBtn {
+      margin-top: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 56px;
+      width: 233px;
+      background: linear-gradient(92.6deg, #3f3fff 21.07%, #ff4729 112.24%);
+      border-radius: 6px;
+      svg {
+        position: relative;
+        top: 3px;
+        left: 17px;
+      }
+    }
+  }
+  .bannerCarousel {
+    width: 100%;
+    display: flex;
+    height: 503px;
+  }
+}

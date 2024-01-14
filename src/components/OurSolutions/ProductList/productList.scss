@@ -1,0 +1,53 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .productCard {
+    flex: 0 0 calc(50% - 2%); /* Two boxes in one row with 2% margin in between */
+    margin: 1%; /* Add margin for spacing between boxes */
+    width: 796px;
+    height: 531;
+
+    .cardImg {
+      width: 796px;
+      height: 377px;
+      object-fit: cover;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .cardDataWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #1e1e1e;
+      background: #ff47290a;
+      height: 154px;
+
+      .cardTitle {
+        font-family: SF Pro Display;
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      .cardCategories {
+        margin-top: 10px;
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+
+      &:hover {
+        color: #ffffff;
+        background: #ff4729;
+      }
+    }
+  }
+}

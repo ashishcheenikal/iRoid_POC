@@ -1,0 +1,72 @@
+.headerSection{
+  .headerNavBar {
+    height: 100px;
+    padding: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .arrow-down {
+      position: relative;
+      top: -3px;
+      left: 10px;
+      border: solid black;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+  
+    .navBarSection {
+      width: 60%;
+      ul {
+        display: flex;
+        justify-content: space-between;
+  
+        li {
+          font-size: 22px;
+          font-weight: 300;
+          line-height: 26px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  
+    .consultationBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 215px;
+      height: 52px;
+      border-radius: 5px;
+      background-color: #3f3fff;
+  
+      span {
+        font-family: SF Pro Display;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  .headerLinkSection{
+    height: 80px;
+    background-color: #FAF9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      a {
+        margin-left: 5px;
+        margin-right: 10px;
+        color: #FF4729;
+      }
+    }
+  }
+}
+

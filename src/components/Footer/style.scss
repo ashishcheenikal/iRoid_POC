@@ -1,0 +1,38 @@
+.footerWrapper {
+  height: 660px;
+  width: 100%;
+  background: #00002d;
+  position: relative;
+  hr {
+    border-top: 1px solid #5d5f84;
+  }
+
+  .footerNavigation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    color: #ffffff;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 565px;
+    width: 60%;
+    text-align: left;
+
+    .Category_ul {
+      display: flex;
+      .Category_li {
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+}

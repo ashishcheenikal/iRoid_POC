@@ -1,0 +1,51 @@
+.subscriptionWrapper {
+    position: relative;
+    height: 538px;
+  .subTitleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    .subSectionTitle1 {
+      font-family: SF Pro Display;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .subSectionTitle2 {
+      margin-top:24px;
+      font-family: SF Pro Display;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 31px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .subscriptionBtn {
+      margin-top:50px;
+      width: 233px;
+      height: 56px;
+      background: linear-gradient(92.6deg, #3F3FFF 21.07%, #FF4729 112.24%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      span {
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+    }
+  }
+}
