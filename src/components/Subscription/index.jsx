@@ -1,5 +1,5 @@
 import React from "react";
-import SubscriptionBG from "../../assets/subscriptionBG";
+import SubscriptionBG from "../../assets/SubscriptionBG";
 import "./style.scss";
 
 function Subscription() {
